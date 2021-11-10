@@ -2,6 +2,7 @@
 
 Aqui você irá encontrar todos os links relacionados à série de vídeos onde iremos aprender Elixir juntos!
 
+- As lives estão acontecendo no [meu canal da Twitch](https://twitch.tv/fdaciuk)
 - [Playlist YouTube](https://www.youtube.com/playlist?list=PLr4c053wuXU-YY4GmqUM3y_uauspsmO0O)
 - [Elixir School](https://elixirschool.com)
 
