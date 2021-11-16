@@ -14,3 +14,7 @@ Vamos estudar **no mínimo** por 3 meses (1h ~ 1h30 por dia, todos os dias, à p
 ## Instalação do Erlang que funcionou para o Pop!_OS 21.04
 
 https://itsfoss.com/install-erlang-ubuntu/
+
+## 99 Problems
+
+https://ocaml.org/learn/tutorials/99problems.html
