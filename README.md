@@ -1,4 +1,4 @@
-# [SÉRIE] Aprendendo com quem não sabe - Elixir
+# [SÉRIE] Aprenda com quem não sabe - Elixir
 
 Aqui você irá encontrar todos os links relacionados à série de vídeos onde iremos aprender Elixir juntos!
 
