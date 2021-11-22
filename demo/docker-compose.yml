@@ -1,0 +1,17 @@
+version: "3"
+services:
+  db:
+    image: "postgres:13-alpine"
+    container_name: "phoenix-demo-db"
+    restart: "always"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      # - ./src/config/docker/init-db.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - 5432:5432
+
+volumes:
+  postgres-data:
