@@ -20,6 +20,13 @@ defmodule DemoWeb.Router do
     get "/", PageController, :index
   end
 
+  scope "/api", DemoWeb do
+    pipe_through :api
+
+    get "/", ApiController, :index
+    get "/products/:id", ApiController, :product
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", DemoWeb do
   #   pipe_through :api
