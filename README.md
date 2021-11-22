@@ -18,3 +18,11 @@ https://itsfoss.com/install-erlang-ubuntu/
 ## 99 Problems
 
 https://ocaml.org/learn/tutorials/99problems.html
+
+## Phoenix
+
+Instalação "limpa" para API, com o mínimo de dependências possíveis:
+
+```
+mix phx.new hello --no-assets --no-ecto --no-html --no-gettext --no-live --no-mailer --no-dashboard
+```
