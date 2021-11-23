@@ -26,3 +26,9 @@ Instalação "limpa" para API, com o mínimo de dependências possíveis:
 ```
 mix phx.new hello --no-assets --no-ecto --no-html --no-gettext --no-live --no-mailer --no-dashboard
 ```
+
+## Próximos tópicos:
+
+- [Where to plug](https://hexdocs.pm/phoenix/plug.html#where-to-plug)
+- [Controllers](https://hexdocs.pm/phoenix/controllers.html)
+- [Agent](https://hexdocs.pm/elixir/Agent.html)
