@@ -7,6 +7,7 @@ defmodule DemoWeb.ApiController do
 
   def product(conn, %{"id" => id} = params) do
     IO.inspect(params)
-    text(conn, "Product #{id}")
+    json(conn, %{ok: id})
+    # text(conn, "Product #{id}")
   end
 end
