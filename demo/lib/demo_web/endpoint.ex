@@ -46,5 +46,16 @@ defmodule DemoWeb.Endpoint do
   plug Plug.MethodOverride
   plug Plug.Head
   plug Plug.Session, @session_options
+  plug :introspect
   plug DemoWeb.Router
+
+  def introspect(%{method: method, host: host, req_headers: req_headers} = conn, _opts) do
+    IO.puts """
+    Verb: #{inspect(method)}
+    Host: #{inspect(host)}
+    Headers: #{inspect(req_headers)}
+    """
+
+    conn
+  end
 end
