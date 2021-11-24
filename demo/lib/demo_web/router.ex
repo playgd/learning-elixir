@@ -15,12 +15,18 @@ defmodule DemoWeb.Router do
     plug :accepts, ["json"]
   end
 
+  pipeline :da2k do
+    # Pipelines também são plugs
+    plug :browser
+  end
+
   scope "/", DemoWeb do
-    pipe_through :browser
+    pipe_through :da2k
 
     get "/", PageController, :index
     get "/hello", HelloController, :index
     get "/hello/:messenger", HelloController, :show
+    # resources "/reviews", ReviewsController
   end
 
   scope "/api", DemoWeb do
@@ -29,6 +35,11 @@ defmodule DemoWeb.Router do
     get "/", ApiController, :index
     get "/products/:id", ApiController, :product
   end
+
+  # Cria um escopo nomeando a função de helper com o prefixo `api_`
+  # scope "/api", DemoWeb, as: :api do
+  #   resources "/reviews", ReviewsController
+  # end
 
   # Other scopes may use custom stacks.
   # scope "/api", DemoWeb do
