@@ -7,6 +7,8 @@ defmodule DemoWeb.HelloController do
 
   def show(conn, %{"messenger" => messenger}) do
     conn
-    |> render("show.html", messenger: messenger)
+    # |> assign(:messenger, messenger)
+    # |> assign(:receiver, "Daciuk")
+    |> render("show.html", messenger: messenger, receiver: "Da2k")
   end
 end

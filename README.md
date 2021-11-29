@@ -29,5 +29,5 @@ mix phx.new hello --no-assets --no-ecto --no-html --no-gettext --no-live --no-ma
 
 ## Próximos tópicos:
 
-- [Controllers](https://hexdocs.pm/phoenix/controllers.html)
+- [Controllers](https://hexdocs.pm/phoenix/controllers.html#setting-the-content-type)
 - [Agent](https://hexdocs.pm/elixir/Agent.html)
