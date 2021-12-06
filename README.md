@@ -29,6 +29,6 @@ mix phx.new hello --no-assets --no-ecto --no-html --no-gettext --no-live --no-ma
 
 ## Próximos tópicos:
 
-- [Views e Templates](https://hexdocs.pm/phoenix/views.html)
+- [Views e Templates](https://hexdocs.pm/phoenix/views.html#manually-rendering-templates)
 - [Plug](https://hexdocs.pm/plug/1.12.1/Plug.html)
 - [Agent](https://hexdocs.pm/elixir/Agent.html)
