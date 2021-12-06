@@ -38,6 +38,6 @@ defmodule DemoWeb.PageController do
   end
 
   def redirect_test(conn, _params) do
-    render(conn, "index.html")
+    render(conn, "index.html", username: "username", many_attributes: %{title: "Título da div", class: "classe-css"})
   end
 end
