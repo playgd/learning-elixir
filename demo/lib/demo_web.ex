@@ -99,4 +99,13 @@ defmodule DemoWeb do
   defmacro __using__(which) when is_atom(which) do
     apply(__MODULE__, which, [])
   end
+
+  # defimpl Plug.Exception, for: DemoWeb.SomethingNotFoundError do
+  #   def status(_exception), do: 404
+  #   def actions(_exception), do: []
+  # end
+end
+
+defmodule DemoWeb.SomethingNotFoundError do
+  defexception [:message, plug_status: 404]
 end

@@ -22,7 +22,7 @@ config :demo, DemoWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4000],
   check_origin: false,
   code_reloader: true,
-  debug_errors: true,
+  debug_errors: false,
   secret_key_base: "Phix7FBnWZhncm/DuN4HiM2leW6Rsr6XPg7rPsnBT45j/e9PxQPqGUGcadjK6EyW",
   watchers: [
     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
