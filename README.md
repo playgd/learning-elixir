@@ -5,6 +5,8 @@ Aqui você irá encontrar todos os links relacionados à série de vídeos onde 
 - As lives estão acontecendo no [meu canal da Twitch](https://twitch.tv/fdaciuk)
 - [Playlist YouTube](https://www.youtube.com/playlist?list=PLr4c053wuXU-YY4GmqUM3y_uauspsmO0O)
 - [Elixir School](https://elixirschool.com)
+- [Documentação do Elixir](https://elixir-lang.org/)
+- [Documentação do Phoenix](https://hexdocs.pm/phoenix)
 
 ## Plano de estudos
 
