@@ -32,6 +32,8 @@
       <DemoWeb.Weather.city name="Curitiba" />
     </div>
 
+    <%= render(DemoWeb.PageView, "test.html", message: "Hello from layout!") %>
+
     <%= @inner_content %>
   </body>
 </html>

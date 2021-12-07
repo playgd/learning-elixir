@@ -24,6 +24,8 @@ defmodule DemoWeb.Router do
     pipe_through :da2k
 
     get "/", PageController, :index
+    get "/page", PageController, :show
+    get "/page/:pagename", PageController, :show
     get "/hello", HelloController, :index
     get "/hello/:messenger", HelloController, :show
     get "/redirect_test", PageController, :redirect_test
