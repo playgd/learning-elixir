@@ -17,6 +17,10 @@ Vamos estudar **no mínimo** por 3 meses (1h ~ 1h30 por dia, todos os dias, à p
 
 https://itsfoss.com/install-erlang-ubuntu/
 
+## Projetos
+
+[Lib Faker usando API do Rick And Morty](https://github.com/fdaciuk/rick-and-morty-faker)
+
 ## 99 Problems
 
 https://ocaml.org/learn/tutorials/99problems.html
